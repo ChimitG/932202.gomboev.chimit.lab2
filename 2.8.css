@@ -1,0 +1,21 @@
+div.ulli{
+    background-color: bisque;
+    width: 250px;
+    display: grid;
+}
+div.box{
+    display: flex;
+    background-color: aqua;
+}
+aside{
+    background-color: darkgrey;
+    min-width: 350px;
+}
+div.bottom{
+    position: fixed;
+    background-color: limegreen;
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+}

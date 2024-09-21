@@ -1,0 +1,27 @@
+div.ulli {
+    background-color: bisque;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    height: 100px;
+}
+div.box {
+    display: flex;
+    background-color: aqua;
+    border: 1px solid green;
+    max-height: 800px;
+}
+aside {
+    flex: auto 1 1;
+    background-color: darkgray;
+    display: grid;
+    gap: 5px;
+}
+img {
+    float: right;
+    width: 50%;
+    max-width: 600px;
+}
+p{
+    margin: 0;
+}

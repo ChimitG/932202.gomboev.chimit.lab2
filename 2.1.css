@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+}
+header{
+    background-color:#EAEAEA;
+    height: 60px;
+}
+section{
+    float: left;
+    margin: 0px;
+    background-color: #C8FC98;
+    width: 200px;
+}
+aside{
+    display: inline;
+    margin: 0px;
+}
+i{
+    color: red;
+}
+h1{
+    list-style: 80%;
+}

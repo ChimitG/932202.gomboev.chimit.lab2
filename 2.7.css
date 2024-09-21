@@ -1,0 +1,45 @@
+*{
+    color: white;
+}
+div.top-left{
+    position: static;
+    background-color: blueviolet;
+    width: 150px;
+    height: 100px;
+}
+div.relative-top{
+    position: relative;
+    background-color: darkred;
+    width: 150px;
+    height: 100px;
+}
+div.relative-bottom{
+    position: relative;
+    background-color: peru;
+    width: 150px;
+    height: 100px;
+    bottom: 30px;
+    left: 30px;
+}
+div.relative-big{
+    position: relative;
+    background-color: indianred;
+    width: 700px;
+    height: 350px;
+}
+div.absolute{
+    position: absolute;
+    background-color: indigo;
+    width: 300px;
+    height: 150px;
+    right: 0px;
+    bottom: 90px;
+}
+div.bottom-right{
+    position: fixed;
+    background-color: forestgreen;
+    height: 100px;
+    width: 100px;
+    right: 0px;
+    bottom: 0px;
+}

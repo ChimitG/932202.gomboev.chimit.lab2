@@ -1,0 +1,15 @@
+*{
+    clear: both;
+}
+
+div.up{
+    background-color: aquamarine;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    float: left;
+}
+div.bottom{
+    background-color: bisque;
+    width: 100%;
+}

@@ -1,0 +1,39 @@
+@media(min-width:1001px){
+    div.ulli{
+        display: grid;
+        background-color: bisque;
+        width: 400px;
+    
+    }
+    div.box{
+        display: flex;
+        background-color: aqua;
+        border: 1px solid green;
+    }
+    aside{
+        display: inline-block;
+        background-color: darkgrey;
+        height: auto;
+    }
+}
+@media (max-width: 1000px){
+    div.ulli{
+        background-color: bisque;
+    }
+    ul{
+        align-items: center;
+        list-style: none;
+        display:flex;
+        word-break: 10px;
+        word-spacing: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    div.box{
+        background-color: aqua;
+        border: 1px solid green;
+    }
+    aside{
+        background-color: darkgrey;
+    }
+}
